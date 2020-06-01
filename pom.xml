@@ -12,6 +12,17 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.7</maven.compiler.source> 
+
+    <maven.compiler.target>1.7</maven.compiler.target> 
+
+    <sonar.host.url>http://172.29.244.197:9000</sonar.host.url> 
+
+   <sonar.login>2eef7dedd47c1a3d111bbd7575c247ad42e692f2</sonar.login>
+                                                                     
+   <sonar.language>java</sonar.language> 
+
+   <sonar.scm.provider>git</sonar.scm.provider>
   </properties>
 
   <dependencies>
@@ -32,7 +43,7 @@
     <dependency>
     <groupId>org.codehaus.mojo</groupId>
     <artifactId>sonar-maven-plugin</artifactId>
-    <version>3.4.0.905</version>
+    <version>3.5.0.1254</version>
    </dependency>
    <dependency>
   	<groupId>junit</groupId>     <!-- NOT org.junit here -->
